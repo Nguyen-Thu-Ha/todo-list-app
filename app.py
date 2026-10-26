@@ -12,3 +12,6 @@ if __name__ == "__main__":
     print("Chào mừng đến với ứng dụng To-Do List!")
     add_task("Học bài Git và GitHub")
     add_task("Làm bài tập thực hành ở nhà")
+    print("\nDanh sách công việc hiện tại:")
+    for i, task in enumerate(tasks, start=1):
+        print(f"{i}. {task}")
